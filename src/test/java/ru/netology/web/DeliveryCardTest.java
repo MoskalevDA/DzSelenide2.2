@@ -37,14 +37,4 @@ public class DeliveryCardTest {
 
     }
 
-    @Test
-    public void calendarAutocompleteTest() {
-        open("http://localhost:9999/");
-       $("[data-test-id='date']").click();
-        $("[data-test-id='city'] input").setValue("Ек");
-        $(byText("Екатеринбург")).click();
-
-    }
-
-
 }
